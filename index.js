@@ -11,7 +11,7 @@ app.get('/api/booster',async (req,res)=>{
     await sleep(5)
     console.log("booster 2")
     try {
-        const response = await axios.get("https://https://newsserver-9j89.onrender.com/api/boost");
+        const response = await axios.get("https://newsserver-9j89.onrender.com/api/boost");
         console.log("Call 1");
     } catch (error) {
         console.error('Error fetching data:', error);
