@@ -16,7 +16,7 @@ app.get('/api/booster',async (req,res)=>{
     } catch (error) {
         console.error('Error fetching data:', error);
       }
-    res.json({msg:"Booster"})
+    // res.json({msg:"Booster"})
 })
 
 app.listen(PORT, () => {
