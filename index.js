@@ -8,7 +8,7 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms*1000));
 }
 app.get('/api/booster',async (req,res)=>{
-    await sleep(5)
+    await sleep(15)
     console.log("booster 2")
     try {
         const response = await axios.get("https://newsserver-9j89.onrender.com/api/boost");
